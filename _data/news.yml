@@ -1,0 +1,15 @@
+# 'News' in homepage
+# If there are no entries, this section is not displayed
+
+# Set 'news_limit' in settings.yml to ajust the number of news to display
+
+# Mandatory:
+# - date (YYYY-MM-DD)
+# - content
+
+# Optional:
+# - read_more (url to page or external link)
+
+
+- date: 2023-01-01
+  content: "FISH project kick-off 🚀"

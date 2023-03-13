@@ -1,0 +1,35 @@
+main:
+  - title: "Research"
+    url: /research/
+  - title: "News & Events"
+    url: /news-events/
+  - title: "Talks"
+    url: /talks/
+  - title: "About"
+    url: /about/
+  - title: "Search"
+    url: /search/
+
+sidebar-research:
+  - title: "Posts"
+    url: /research/#posts
+  - title: "Publications"
+    url: /research/#publications
+
+sidebar-about:
+  - title: "People"
+    url: /about/#people
+  - title: "Contact"
+    url: /about/#contact
+
+sidebar-single-origin-destination-routing:
+  - title: "Short Abstract"
+    url: /research/single-origin-destination-routing/#short-abstract
+  - title: "Source Code"
+    url: /research/single-origin-destination-routing/#source-code
+  - title: "Simulation Results"
+    url: /research/single-origin-destination-routing/#simulation-results
+  - title: "Citing"
+    url: /research/single-origin-destination-routing/#citing
+  - title: "References"
+    url: /research/single-origin-destination-routing/#references

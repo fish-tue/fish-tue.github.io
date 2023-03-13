@@ -1,0 +1,23 @@
+<div class="news">
+  <div class="container">
+  {%- assign news_size = site.data.news | size -%}
+      <table class="table">
+        {%- assign news = site.data.news -%}
+        {% if include.limit %}
+          {% assign news_limit = {{include.limit}} %}
+        {% else %}
+              {% assign news_limit = news_size %}
+        {% endif %}
+        {% for item in news limit: news_limit %}
+          <tr>
+            <!--<th>{{ item.date | date: "%b %-d, %Y" }}</th>-->
+            <th>{{ item.date | date: "%b" }}</th>
+            <th>{{ item.date | date: "%Y" }}</th>
+            <td>
+                {{item.content}}{% if item.read_more %} <a href="{{item.read_more}}" target="blank"> Read more...</a> {% endif %}
+            </td>
+          </tr>
+        {%- endfor %}
+      </table>
+    </div>
+</div>

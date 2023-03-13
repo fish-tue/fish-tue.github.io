@@ -1,0 +1,18 @@
+- name: "Leonardo Pedroso"
+  affiliation: "a"
+  orcid: "https://orcid.org/0000-0002-1508-496X"
+  googlescholar: "https://scholar.google.com/citations?user=W7_Gq-0AAAAJ&hl=en"
+  github: "https://github.com/leonardopedroso"
+  website: "https://leonardopedroso.github.io"
+
+- name: "W.P.M.H. (Maurice) Heemels"
+  affiliation: "a"
+  orcid: "https://orcid.org/0000-0003-3440-8007"
+  googlescholar: "https://scholar.google.com/citations?user=M_hGdkoAAAAJ&hl=en"
+  website: "https://heemels.tue.nl"
+
+- name: "Mauro Salazar"
+  affiliation: "a"
+  orcid: "https://orcid.org/0000-0003-4433-5796"
+  googlescholar: "https://scholar.google.com/citations?user=0Z9zTYwAAAAJ&hl=en"
+  #website: ""

@@ -1,0 +1,37 @@
+.news{
+
+  .container{
+        display:flex;
+
+    table {
+      border: none;
+      border-collapse: collapse;
+      font-size: $h-size-6;
+    }
+
+    th {
+      border: none;
+      font-weight: bold;
+      text-align: left;
+      border-right: none;
+      margin-right: 0em;
+      padding-right: 0em;
+      font-size: $h-size-6;
+      min-width: 0.25em;
+      vertical-align: top;
+      padding-bottom: 0.4em;
+      padding-top: 0.4em;
+    }
+
+    td {
+      border: none;
+      border-bottom: none;
+      border-right: none;
+      padding-left: 1em;
+      padding-bottom: 0.4em;
+      padding-top: 0.4em;
+      font-size: $h-size-6;
+      text-align: justify;
+    }
+}
+}
