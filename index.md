@@ -3,6 +3,7 @@ layout: splash
 title: "FISH"
 entries_layout: grid
 excerpt: "Fair Incentive mechanisms for Sustainable Human-centered mobility"
+description: "Research project on fair incentive mechanisms for sustainable human-centered mobility through artificial currencies at TU Eindhoven"
 header:
   overlay_image: assets/img/splash.webp
   overlay_filter: 0.1
