@@ -24,12 +24,12 @@ sidebar-about:
 
 sidebar-single-origin-destination-routing:
   - title: "Short Abstract"
-    url: /research/single-origin-destination-routing/#short-abstract
+    url: /single-origin-destination-routing/#short-abstract
   - title: "Source Code"
-    url: /research/single-origin-destination-routing/#source-code
+    url: /single-origin-destination-routing/#source-code
   - title: "Simulation Results"
-    url: /research/single-origin-destination-routing/#simulation-results
+    url: /single-origin-destination-routing/#simulation-results
   - title: "Citing"
-    url: /research/single-origin-destination-routing/#citing
+    url: /single-origin-destination-routing/#citing
   - title: "References"
-    url: /research/single-origin-destination-routing/#references
+    url: /single-origin-destination-routing/#references
