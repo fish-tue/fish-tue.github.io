@@ -72,18 +72,19 @@ End of diagnostic information.
 
                                   Best          Mean         Stall
 Generation      Func-count     Penalty         Penalty    Generations
-    1              100          0.5751          0.7554        0
-    2              147          0.5728          0.7581        0
-    3              194          0.5728          0.7077        1
-    4              241           0.567          0.7378        0
-    5              288          0.5522          0.7691        0
-    6              335          0.5522          0.7254        1
-    7              382          0.5522           0.685        2
-    8              429          0.5522          0.7268        3
+    1              100          0.5777          0.7856        0
+    2              147          0.5647          0.7537        0
+    3              194          0.5643          0.7166        0
+    4              241          0.5563          0.7211        0
+    5              288          0.5563          0.7513        1
+    6              335          0.5522          0.6837        0
+    7              382          0.5522          0.7205        1
+    8              429          0.5522          0.7001        2
+    9              476          0.5522          0.7422        3
 Optimization terminated: average change in the penalty fitness value less than options.FunctionTolerance
 and constraint violation is less than options.ConstraintTolerance.
 ---------------------------------------------------------------------
-Genetic alg. prices:		76 1 0 -1 -28 
+Genetic alg. prices:		76 1 0 -1 -28  
 ```
 ###  Pot Decision Landscape
 
