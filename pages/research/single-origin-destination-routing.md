@@ -14,7 +14,7 @@ tags:
   - artificial currencies
   - routing
 date: "2023-03-13"
-last_modified_at: "2023-03-13"
+last_modified_at: "2023-04-03"
 ---
 
 ## Short abstract
@@ -27,10 +27,10 @@ Within **mobility systems**, the presence of **self-interested users** can lead 
 
 ## Source code
 
-A **MATLAB** implementation of the methods and simulations presented in this paper are openly available in an **open-source repository** available at [https://github.com/fish-tue/single-origin-destination-routing](https://github.com/fish-tue/single-origin-destination-routing). The code is **thoroughly commented** and is **easy to follow and modify**.
+A **MATLAB** implementation of the methods and simulations presented in this paper are openly available in an **open-source repository** available at <a href="https://github.com/fish-tue/single-origin-destination-routing" target="blank">github.com/fish-tue/single-origin-destination-routing</a>. The code is **thoroughly commented** and is **easy to follow and modify**.
 {: .text-justify}
 
-The source code can also be **downloaded** directly [here](/) (X Kb).
+The source code can also be **downloaded** directly <a href="https://github.com/fish-tue/single-origin-destination-routing/archive/refs/tags/v0.0.0.zip">here</a> (4.2 MB).
 
 See below for **step-by-step** instructions on how the **illustrative numerical results** in [[1, Section V.I ]](#references) were obtained from the source code made available.
 {: .text-justify}
@@ -44,9 +44,26 @@ To generate an illustrative network use the ```generate_network.m``` script, whe
 
 ```text
 >> generate_network
-System opt. flows (x_star):	0.138707 0.133566 0.131482 0.170298 0.375947
-System opt. disc. (d_star):	0.116706 0.321068 0.321317 0.323368 0.414719
-System opt. cost:		0.541656
+Your initial point x0 is not between bounds lb and ub; FMINCON
+shifted x0 to strictly satisfy the bounds.
+
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+    0       1    1.244026e+01    1.188e+00    4.389e+01
+    1       2    1.030693e+00    6.698e-01    7.838e+01    4.942e-01
+   (...)
+   23      25    4.304604e-01    0.000e+00    1.178e-07    2.082e-05
+
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+
+<stopping criteria details>
+System opt. flows (x_star):	0.0877055 0.13087 1.73245e-07 0.305343 0.426081
+System opt. disc. (d_star):	0.561107 0.594339 0.708511 0.71071 0.910614
+System opt. cost:		0.43046
 ```
 ###  Compute Near-optimal Arcs' Prices
 To compute the arcs' prices according to the method proposed in [[1, Section V.I]](#references), use the ```n_arcs_pricing.m``` script.
@@ -66,25 +83,26 @@ CreationFcn:       @CustomCreationFcn
 CrossoverFcn:      @crossoverlaplace
 SelectionFcn:      @selectiontournament
 MutationFcn:       @mutationpower
+PopulationSize:    20
+FitnessLimit:      0.43476
 StallGenLimit:     3
 Display:           'diagnose'
 End of diagnostic information.
 
                                   Best          Mean         Stall
 Generation      Func-count     Penalty         Penalty    Generations
-    1              100          0.5777          0.7856        0
-    2              147          0.5647          0.7537        0
-    3              194          0.5643          0.7166        0
-    4              241          0.5563          0.7211        0
-    5              288          0.5563          0.7513        1
-    6              335          0.5522          0.6837        0
-    7              382          0.5522          0.7205        1
-    8              429          0.5522          0.7001        2
-    9              476          0.5522          0.7422        3
+    1               40          0.4552           1.908        0
+    2               57          0.4552           1.206        1
+    3               74          0.4552           1.451        2
+    4               91           0.438           1.919        0
+    5              108           0.438           4.085        1
+    6              125           0.438           1.137        2
+    7              142           0.438           2.273        3
 Optimization terminated: average change in the penalty fitness value less than options.FunctionTolerance
 and constraint violation is less than options.ConstraintTolerance.
+Elapsed time is 452.616053 seconds.
 ---------------------------------------------------------------------
-Genetic alg. prices:		76 1 0 -1 -28  
+Genetic alg. prices:		79 63 39 13 -45
 ```
 ###  Pot Decision Landscape
 
@@ -136,19 +154,19 @@ The simulation is carried out by computing the daily Nash equilibrium and the de
 
 If you use this repository, **please reference the publication below**.
 
-L. Pedroso, W. P. M. H. Heemels, and M. Salazar, “**Urgency-aware optimal routing in repeated games through artificial currencies**” [*not published yet*]
+L. Pedroso, W. P. M. H. Heemels, and M. Salazar. “**Urgency-aware optimal routing in repeated games through artificial currencies**”. *arXiv Preprint* arXiv:2303.16945, [doi:10.48550/arXiv.2303.16945](https://doi.org/10.48550/arXiv.2303.16945).
 
 ```bib
 @article{PedrosoHeemelsEtAl2023,
-  title={Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies},
-  author={Pedroso, L. and Heemels, W. P. M. H. and Salazar, M.},
-  year={2023}
+  author      = {Leonardo Pedroso and W. P. M. H. Heemels and Mauro Salazar},
+  title       = {Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies},
+  journal     = {arXiv preprint arXiv:2303.16945},
+  year        = {2023},
+  doi         = {10.48550/arXiv.2303.16945}
 }
 ```
 
-
-
 ## References
 
-[1] L. Pedroso, W. P. M. H. Heemels, and M. Salazar, “**Urgency-aware optimal routing in repeated games through artificial currencies**” [*not published yet*]
+[1] L. Pedroso, W. P. M. H. Heemels, and M. Salazar. “**Urgency-aware optimal routing in repeated games through artificial currencies**”. *arXiv Preprint* arXiv:2303.16945, [doi:10.48550/arXiv.2303.16945](https://doi.org/10.48550/arXiv.2303.16945).
 {: .text-justify}

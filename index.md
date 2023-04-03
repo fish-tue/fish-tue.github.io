@@ -21,6 +21,18 @@ single-origin-destination-routing:
 ---
 
 <h2>👋🏻 Welcome </h2>
+
+{% comment %}
+<div class="row">
+  <div class="column">
+  Current mobility systems face many <b>challenges</b>:<br>🔸 traffic <b>congestion</b><br>🔸 evironmental <b>pollution</b><br>🔸 user <b>dissatisfaction</b>
+  </div>
+  <div class="column">
+  <img src = ""> </img>
+  </div>
+</div>
+{% endcomment %}
+
 The presence of self-interested users in **shared resource allocation settings** leads to usage patters that **inefficient** compared with the system's optimum. Specifically, within mobility systems, the presence of self-interested commuters leads to aggregate routing patterns that are far from the societal optimum that could be achieved by centrally controlling the user's mobility patters. With the FISH project we strive to develop **human-centered fair incentive mechanisms** through **artificial currencies** so that the selfish behavior of the users aligns with the societally-optimal aggregate behaviour.<br><br>
 {: .text-justify}
 
