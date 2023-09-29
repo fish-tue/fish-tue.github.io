@@ -23,5 +23,4 @@ single-origin-destination-routing:
 
 
 <h2>Publications</h2>
-
-No content yet... 🚀
+{% include publications.html list=site.data.publications %}

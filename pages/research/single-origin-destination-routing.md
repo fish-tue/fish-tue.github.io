@@ -154,19 +154,20 @@ The simulation is carried out by computing the daily Nash equilibrium and the de
 
 If you use this repository, **please reference the publication below**.
 
-L. Pedroso, W. P. M. H. Heemels, and M. Salazar. “**Urgency-aware optimal routing in repeated games through artificial currencies**”. *arXiv Preprint* arXiv:2303.16945, [doi:10.48550/arXiv.2303.16945](https://doi.org/10.48550/arXiv.2303.16945).
+L. Pedroso, W.P.M.H. Heemels, and M. Salazar, “**Urgency-aware optimal routing in repeated games through artificial currencies**”, *62nd IEEE Conference on Decision and Control*, 2023. [doi:10.48550/arXiv.2303.16945](https://doi.org/10.48550/arXiv.2303.16945). *(in press)*
 
 ```bib
-@article{PedrosoHeemelsEtAl2023,
-  author      = {Leonardo Pedroso and W. P. M. H. Heemels and Mauro Salazar},
-  title       = {Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies},
-  journal     = {arXiv preprint arXiv:2303.16945},
-  year        = {2023},
-  doi         = {10.48550/arXiv.2303.16945}
+@article{PedrosoHeemelsEtAl2023KarmaParallel,
+  author = {Leonardo Pedroso and {\relax W.P.M.H} Heemels and Mauro Salazar},
+  title = {Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies},
+  booktitle = {62nd IEEE Conference on Decision and Control (in press)},
+  year = {2023},
+  note = {in press},
+  doi = {10.48550/arXiv.2303.16945}
 }
 ```
 
 ## References
 
-[1] L. Pedroso, W. P. M. H. Heemels, and M. Salazar. “**Urgency-aware optimal routing in repeated games through artificial currencies**”. *arXiv Preprint* arXiv:2303.16945, [doi:10.48550/arXiv.2303.16945](https://doi.org/10.48550/arXiv.2303.16945).
+[1] L. Pedroso, W.P.M.H. Heemels, and M. Salazar, “**Urgency-aware optimal routing in repeated games through artificial currencies**”, *62nd IEEE Conference on Decision and Control*, 2023. *(in press)*
 {: .text-justify}

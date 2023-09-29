@@ -1,0 +1,58 @@
+
+
+
+<h1>Software</h1>
+<div class="software">
+  {% for item in site.data.software %}
+  {% if item.img %}
+  <div class="container">
+    <div class="software-preview">
+          <img src="/images/software/{{item.img}}" alt="Preview">
+    </div>
+    <div class="software-desc">
+        <a target= "blank" href="{{item.url}}"> <b>{{ item.title }}</b></a><br>
+        {{ item.authors }} ({{item.year}})
+        <p style="text-decoration: none; color: #4a4e52; line-height: 130%;" > {{ item.description}}</p>
+        {% if item.license %}
+          <a target="blank" href="{{item.license_url}}"><img src="https://img.shields.io/badge/License-{{item.license}}-blue.svg" alt="License: {{item.license}}"></a>
+        {% endif %}
+        {% if item.language %}
+          <img alt="{{item.language}}" src="https://img.shields.io/badge/Language-{{item.language}}-blueviolet">
+        {% endif %}
+        {% if item.github %}
+          <a target="blank" href="{{item.github}}"><img alt="GitHub" src="https://badges.aleen42.com/src/github.svg"></a>
+        {% endif %}
+        {% if item.video %}
+          <a target="blank" href="{{item.video}}"><img alt="YouTube" src="https://badges.aleen42.com/src/youtube.svg"></a>
+        {% endif %}
+        {% if item.pdf %}
+        <a target="blank" href="{{item.pdf}}"><img alt="PDF" src="https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&color=f5231e"></a>
+        {% endif %}
+      </div>
+    </div>
+  {% else %}
+  <div class="software-desc">
+      <a target= "blank" href="{{item.url}}"> <b>{{ item.title }}</b></a><br>
+      {{ item.authors }} ({{item.year}})
+      <p style="text-decoration: none; color: #4a4e52; line-height: 130%;" > {{ item.description}}</p>
+      {% if item.license %}
+        <a target="blank" href="{{item.license_url}}"><img src="https://img.shields.io/badge/License-{{item.license}}-blue.svg" alt="License: {{item.license}}"></a>
+      {% endif %}
+      {% if item.language %}
+        <img alt="{{item.language}}" src="https://img.shields.io/badge/Language-{{item.language}}-blueviolet">
+      {% endif %}
+      {% if item.github %}
+        <a target="blank" href="{{item.github}}"><img alt="GitHub" src="https://badges.aleen42.com/src/github.svg"></a>
+      {% endif %}
+      {% if item.video %}
+        <a target="blank" href="{{item.video}}"><img alt="YouTube" src="https://badges.aleen42.com/src/youtube.svg"></a>
+      {% endif %}
+      {% if item.pdf %}
+      <a target="blank" href="{{item.pdf}}"><img alt="PDF" src="https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&color=f5231e"></a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% endfor %}
+
+</div>

@@ -1,0 +1,33 @@
+<div class="publications">
+  {% assign publication_list_count = include.list.size %}
+  {% for item in include.list %}
+    [{{publication_list_count}}]
+    <a style="text-decoration: none; line-height: 150%;" target= "blank" href="{{item.url}}"> {{item.citation}}</a>
+    <div class="pub-details">
+      <a target="blank" href="{{item.url}}"><img alt="HTML" src="https://img.shields.io/badge/-HTML-red?logo=html5&color=555555"></a>
+      {% if item.pdf %}
+      <a target="blank" href="{{item.pdf}}"><img alt="PDF" src="https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&color=f5231e"></a>
+      {% endif %}
+      {% comment %}
+      <a style="text-align:left; line-height: 160%; color:color: #52adc8;" href="{{item.url}}" target= "blank">[HTML]</a>
+      <a style="text-align:left; line-height: 160%; color: color: #52adc8;" href="{{item.pdf}}" target= "blank">[PDF]</a>
+      {% endcomment %}
+      {% if item.github %}
+        <a target="blank" href="{{item.github}}"><img alt="GitHub" src="https://badges.aleen42.com/src/github.svg"></a>
+      {% endif %}
+      {% if item.video %}
+        <a target="blank" href="{{item.video}}"><img alt="YouTube" src="https://badges.aleen42.com/src/youtube.svg"></a>
+      {% endif %}
+      {% if item.abstract %}
+      <details style="text-align:left"> <summary>Abstract</summary><p style="text-align: justify;">{{item.abstract}}</p></details>
+      {% endif %}
+      {% if item.bibtex %}
+      <details> <summary>BibTeX</summary><p style="text-align: left; font-family:'Courier';">{{item.bibtex}}</p></details>
+      {% endif %}
+
+    </div>
+    <br>
+    {% assign publication_list_count = publication_list_count | plus:-1 %}
+{% endfor %}
+
+</div>

@@ -11,5 +11,13 @@
 # - read_more (url to page or external link)
 
 
+- date: 2023-07-01
+  content: "Our paper '<b>Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies</b>' was accepted for presentation in the IEEE CDC 2023."
+  read_more: https://fish-tue.github.io/single-origin-destination-routing/
+
+- date: 2023-03-01
+  content: "We presented preliminary results at the 42nd Benelux Meeting on Systems and Control."
+  read_more: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_03_benelux.pdf
+
 - date: 2023-01-01
   content: "FISH project kick-off 🚀"

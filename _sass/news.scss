@@ -1,3 +1,4 @@
+
 .news{
 
   .container{
@@ -6,7 +7,7 @@
     table {
       border: none;
       border-collapse: collapse;
-      font-size: $h-size-6;
+      font-size: $type-size-4;
     }
 
     th {
@@ -16,11 +17,11 @@
       border-right: none;
       margin-right: 0em;
       padding-right: 0em;
-      font-size: $h-size-6;
+      font-size: $type-size-4;
       min-width: 0.25em;
       vertical-align: top;
-      padding-bottom: 0.4em;
-      padding-top: 0.4em;
+      padding-bottom: 0.2em;
+      padding-top: 0.2em;
     }
 
     td {
@@ -28,9 +29,9 @@
       border-bottom: none;
       border-right: none;
       padding-left: 1em;
-      padding-bottom: 0.4em;
-      padding-top: 0.4em;
-      font-size: $h-size-6;
+      padding-bottom: 0.2em;
+      padding-top: 0.2em;
+      font-size: $type-size-3;
       text-align: justify;
     }
 }

@@ -1,0 +1,28 @@
+# List in Software page
+# If there are no entries, this section is not displayed
+
+# Mandatory:
+# - title
+# - authors
+# - year
+# - description
+# - url (main reference: github repo, external site, paper, etc...)
+
+# Optional:
+# - img (filename of image in /images/software)
+# - license ('_' -> ' '; '--' -> '-')
+# - license_url (must be provided if license is provided)
+# - language
+# - github
+# - video
+# - pdf
+
+
+# 2023
+
+- title: "Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies"
+  description: 42nd Benelux Meeting on Systems and Control
+  year: March 2023
+  img: benelux2023.webp
+  url: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_03_benelux.pdf
+  pdf: http://web.tecnico.ulisboa.pt/ist189691/presentations/2023_03_benelux.pdf

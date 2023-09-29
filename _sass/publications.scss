@@ -1,0 +1,148 @@
+
+.publications{
+  text-align: justify;
+  line-height: 130%;
+  font-size: $type-size-4;
+  text-decoration: none;
+
+  a {
+    color: mix(#000, $gray, 40%);
+  }
+
+  details {
+    display: inline;
+    text-align: left;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    margin-left: 0.35em;
+    padding-left: 0.35em;
+
+  }
+
+  details summary {
+    font-size: $type-size-3;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    margin-left: 0em;
+    padding-left: 0.35em;
+  }
+
+  .pub-details{
+      text-align: left;
+
+  }
+
+}
+
+.publications-selected{
+
+
+
+font-size: $type-size-3;
+
+
+.container{
+      padding:0px;
+      display:flex;
+      align-items: top;
+      font-size: $type-size-3;
+
+}
+
+.container div{
+  flex: 1;
+  padding: 5px;
+  margin: 5px;
+  text-align: left;
+
+
+}
+
+.container p{
+  text-align: justify;
+  margin-bottom: 3px;
+  font-size: $type-size-2;
+
+}
+
+.container div:first-child{
+  width: 160px;
+  flex: none;
+
+}
+
+.container details {
+  display: inline;
+  font-size: $type-size-4;
+  margin-top: 0em;
+  padding-top: 0em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+  margin-left: 0.35em;
+  padding-left: 0.35em;
+  line-height: 200%;
+
+
+}
+
+.container details summary {
+  cursor: pointer;
+  margin-top: 0em;
+  padding-top: 0em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+  margin-left: 0em;
+  padding-left: 0.35em;
+}
+
+
+
+
+
+}
+
+
+.pub-details{
+
+  vertical-align: middle;
+
+  a {
+    color: #52adc8;
+    text-align: left;
+  }
+}
+
+.pub-details-selected{
+
+
+}
+
+.publication-selected-preview {
+  display: table-cell;
+  vertical-align: top;
+  width: 36px;
+  // set width only, for non-square avatars
+  height: 36px;
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    with: 150px;
+    border-radius: 25%;
+
+    @include breakpoint($large) {
+      padding: 4px;
+      border: 2px solid $border-color;
+    }
+  }
+}
