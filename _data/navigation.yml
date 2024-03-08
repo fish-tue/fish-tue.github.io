@@ -33,3 +33,15 @@ sidebar-single-origin-destination-routing:
     url: /single-origin-destination-routing/#citing
   - title: "References"
     url: /single-origin-destination-routing/#references
+
+sidebar-AC-weighted-eqt-eql:
+  - title: "Short Abstract"
+    url: /AC-weighted-eqt-eql/#short-abstract
+  - title: "Source Code"
+    url: /AC-weighted-eqt-eql/#source-code
+  - title: "Simulation Results"
+    url: /AC-weighted-eqt-eql/#simulation-results
+  - title: "Citing"
+    url: /AC-weighted-eqt-eql/#citing
+  - title: "References"
+    url: /AC-weighted-eqt-eql/#references

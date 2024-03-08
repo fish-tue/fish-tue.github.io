@@ -30,7 +30,7 @@ Within **mobility systems**, the presence of **self-interested users** can lead 
 A **MATLAB** implementation of the methods and simulations presented in this paper are openly available in an **open-source repository** available at <a href="https://github.com/fish-tue/single-origin-destination-routing" target="blank">github.com/fish-tue/single-origin-destination-routing</a>. The code is **thoroughly commented** and is **easy to follow and modify**.
 {: .text-justify}
 
-The source code can also be **downloaded** directly <a href="https://github.com/fish-tue/single-origin-destination-routing/archive/refs/tags/v0.0.0.zip">here</a> (4.2 MB).
+The source code can also be **downloaded** directly <a href="https://github.com/fish-tue/single-origin-destination-routing/archive/refs/tags/v0.0.1.zip">here</a> (2.9 MB).
 
 See below for **step-by-step** instructions on how the **illustrative numerical results** in [[1, Section V.I ]](#references) were obtained from the source code made available.
 {: .text-justify}
@@ -154,20 +154,19 @@ The simulation is carried out by computing the daily Nash equilibrium and the de
 
 If you use this repository, **please reference the publication below**.
 
-L. Pedroso, W.P.M.H. Heemels, and M. Salazar, “**Urgency-aware optimal routing in repeated games through artificial currencies**”, *62nd IEEE Conference on Decision and Control*, 2023. [doi:10.48550/arXiv.2303.16945](https://doi.org/10.48550/arXiv.2303.16945). *(in press)*
+L. Pedroso, W.P.M.H. Heemels, and M. Salazar, “**Urgency-aware optimal routing in repeated games through artificial currencies**”, *62nd IEEE Conference on Decision and Control*, 2023. [doi:10.1109/CDC49753.2023.10383739](https://doi.org/10.1109/CDC49753.2023.10383739).
 
 ```bib
-@article{PedrosoHeemelsEtAl2023KarmaParallel,
-  author = {Leonardo Pedroso and {\relax W.P.M.H} Heemels and Mauro Salazar},
+@inproceedings{PedrosoHeemelsEtAl2023KarmaParallel,
+  author = {Leonardo Pedroso and W. P. M. H. Heemels and Mauro Salazar},
   title = {Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies},
-  booktitle = {62nd IEEE Conference on Decision and Control (in press)},
+  booktitle = {62nd IEEE Conference on Decision and Control},
   year = {2023},
-  note = {in press},
-  doi = {10.48550/arXiv.2303.16945}
+  doi = {10.1109/CDC49753.2023.10383739}
 }
 ```
 
 ## References
 
-[1] L. Pedroso, W.P.M.H. Heemels, and M. Salazar, “**Urgency-aware optimal routing in repeated games through artificial currencies**”, *62nd IEEE Conference on Decision and Control*, 2023. *(in press)*
+[1] L. Pedroso, W.P.M.H. Heemels, and M. Salazar, “**Urgency-aware optimal routing in repeated games through artificial currencies**”, *62nd IEEE Conference on Decision and Control*, 2023. doi: [10.1109/CDC49753.2023.10383739](https://doi.org/10.1109/CDC49753.2023.10383739).
 {: .text-justify}

@@ -7,6 +7,7 @@ sidebar:
   title: "Research"
   nav: sidebar-research
 author_profile: false
+
 single-origin-destination-routing:
   - image_path: /assets/img/research/single-origin-destination-routing/teaser-square.webp
     alt: "single-origin-destination-routing"
@@ -15,10 +16,20 @@ single-origin-destination-routing:
     url: "single-origin-destination-routing/"
     btn_label: "Read More"
     btn_class: "btn--warning"
+
+AC-weighted-eqt-eql:
+  - image_path: /assets/img/research/AC-weighted-eqt-eql/teaser-square.webp
+    alt: "AC-weighted-eqt-eql"
+    title: "Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality"
+    excerpt: "Incentive schemes utilizing artificial currencies have been explored to achieve a system-optimal resource allocation that is also fair, contrarily to state-of-the-art monetary schemes. This paper delves into the comprehensive notion of fairness by meticulously optimizing for the societal metrics of equity and equality."
+    url: "AC-weighted-eqt-eql/"
+    btn_label: "Read More"
+    btn_class: "btn--warning"
 ---
 <h1>Research</h1>
 <h2>Posts</h2>
 <h3>2023</h3>
+{% include feature_row id="AC-weighted-eqt-eql" type="left" %}
 {% include feature_row id="single-origin-destination-routing" type="left" %}
 
 
