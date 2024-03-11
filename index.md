@@ -2,13 +2,23 @@
 layout: splash
 title: "FISH"
 entries_layout: grid
-excerpt: "Fair Incentive mechanisms for Sustainable Human-centered mobility"
-description: "Research project on fair incentive mechanisms for sustainable human-centered mobility through artificial currencies at TU Eindhoven"
+excerpt: "Fair Incentive Mechanism Design using Artificial Currencies"
+description: "Research project on fair incentive mechanism design using artificial currencies at TU Eindhoven"
 header:
   overlay_image: assets/img/splash.webp
   overlay_filter: 0.1
   text_color: "#ffffff"
   text_outline_color: "#99999"
+
+
+AC-weighted-eqt-eql:
+  - image_path: /assets/img/research/AC-weighted-eqt-eql/teaser.webp
+    alt: "AC-weighted-eqt-eql"
+    title: "Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality"
+    excerpt: "Incentive schemes utilizing artificial currencies have been explored to achieve a system-optimal resource allocation that is also fair, contrarily to state-of-the-art monetary schemes. This paper delves into the comprehensive notion of fairness by meticulously optimizing for the societal metrics of equity and equality."
+    url: "AC-weighted-eqt-eql/"
+    btn_label: "Read More"
+    btn_class: "btn--warning"
 
 single-origin-destination-routing:
   - image_path: /assets/img/research/single-origin-destination-routing/teaser.webp
@@ -19,30 +29,11 @@ single-origin-destination-routing:
     btn_label: "Read More"
     btn_class: "btn--warning"
 
-AC-weighted-eqt-eql:
-  - image_path: /assets/img/research/AC-weighted-eqt-eql/teaser.webp
-    alt: "AC-weighted-eqt-eql"
-    title: "Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality"
-    excerpt: "Incentive schemes utilizing artificial currencies have been explored to achieve a system-optimal resource allocation that is also fair, contrarily to state-of-the-art monetary schemes. This paper delves into the comprehensive notion of fairness by meticulously optimizing for the societal metrics of equity and equality."
-    url: "AC-weighted-eqt-eql/"
-    btn_label: "Read More"
-    btn_class: "btn--warning"
 ---
 
 <h2>👋🏻 Welcome </h2>
 
-{% comment %}
-<div class="row">
-  <div class="column">
-  Current mobility systems face many <b>challenges</b>:<br>🔸 traffic <b>congestion</b><br>🔸 evironmental <b>pollution</b><br>🔸 user <b>dissatisfaction</b>
-  </div>
-  <div class="column">
-  <img src = ""> </img>
-  </div>
-</div>
-{% endcomment %}
-
-The presence of self-interested users in **shared resource allocation settings** leads to usage patters that **inefficient** compared with the system's optimum. Specifically, within mobility systems, the presence of self-interested commuters leads to aggregate routing patterns that are far from the societal optimum that could be achieved by centrally controlling the user's mobility patters. With the FISH project we strive to develop **human-centered fair incentive mechanisms** through **artificial currencies** so that the selfish behavior of the users aligns with the societally-optimal aggregate behaviour.<br><br>
+When users **access shared resources in a selfish manner**, the resulting societal cost and perceived users' cost is often higher than what would result from a centrally coordinated optimal allocation. While several contributions in **mechanism design** manage to steer the aggregate users choices to the desired optimum by using **monetary tolls**, such approaches bear the inherent drawback of **discriminating against users with a lower income**. Against this backdrop, with the FISH project, we aim to **design incentive schemes** based on **artificial currencies** with the goal of achieving a **system-optimal resource allocation** that is also **fair**.
 {: .text-justify}
 
 

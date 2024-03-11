@@ -9,7 +9,7 @@ sidebar:
 ---
 About
 =====
-The presence of self-interested users in **shared resource allocation settings** leads to usage patters that **inefficient** compared with the system's optimum. Specifically, within mobility systems, the presence of self-interested commuters leads to aggregate routing patterns that are far from the societal optimum that could be achieved by centrally controlling the user's mobility patters. With the FISH project we strive to develop **human-centered fair incentive mechanisms** through **artificial currencies** so that the selfish behavior of the users aligns with the societally-optimal aggregate behaviour.
+When users **access shared resources in a selfish manner**, the resulting societal cost and perceived users' cost is often higher than what would result from a centrally coordinated optimal allocation. While several contributions in **mechanism design** manage to steer the aggregate users choices to the desired optimum by using **monetary tolls**, such approaches bear the inherent drawback of **discriminating against users with a lower income**. Against this backdrop, with the FISH project, we aim to **design incentive schemes** based on **artificial currencies** with the goal of achieving a **system-optimal resource allocation** that is also **fair**.
 {: .text-justify}
 
 ***
@@ -24,4 +24,4 @@ People
 
 Contact
 =====
-The FISH repositories are currently mantained by Leonardo Pedroso (<a href = "mailto: l.pedroso@tue.nl">l.pedroso@tue.nl</a>).
+The FISH repositories are currently maintained by Leonardo Pedroso (<a href = "mailto: l.pedroso@tue.nl">l.pedroso@tue.nl</a>).
