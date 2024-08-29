@@ -9,7 +9,7 @@ sidebar:
 author_profile: false
 
 single-origin-destination-routing:
-  - image_path: /assets/img/research/single-origin-destination-routing/teaser-square.webp
+  - image_path: /assets/img/research/single-origin-destination-routing/teaser.webp
     alt: "single-origin-destination-routing"
     title: "Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies"
     excerpt: "Within mobility systems, the presence of self-interested users can lead to aggregate routing patterns that are far from the societal optimum that could be achieved by centrally controlling the user's choices. We design an urgency-aware fair incentive mechanism through artificial currencies so that the selfish behavior of the users aligns with the societally-optimal aggregate routing for single origin-destination inteneraries."
@@ -25,11 +25,23 @@ AC-weighted-eqt-eql:
     url: "AC-weighted-eqt-eql/"
     btn_label: "Read More"
     btn_class: "btn--warning"
+
+evcharging:
+  - image_path: /assets/img/research/evcharging/teaser.svg
+    alt: "evcharging"
+    title: "Fair Incentive Mechanisms for Differentiated Services in a Public Electric Vehicle Charging Station"
+    excerpt: "A major barrier to electric vehicle (EV) adoption is the lack of affordable and accessible public chargers. This thesis proposes a fair incentive mechanism for operating a public EV charging station with access to renewable energy, prioritizing users without home-based chargers, and minimizing grid power usage."
+    url: "evcharging/"
+    btn_label: "Read More"
+    btn_class: "btn--warning"
+
 ---
 <h1>Research</h1>
 <h2>Posts</h2>
-<h3>2023</h3>
+<h3>2024</h3>
+{% include feature_row id="evcharging" type="left" %}
 {% include feature_row id="AC-weighted-eqt-eql" type="left" %}
+<h3>2023</h3>
 {% include feature_row id="single-origin-destination-routing" type="left" %}
 
 

@@ -11,6 +11,12 @@
   googlescholar: "https://scholar.google.com/citations?user=M_hGdkoAAAAJ&hl=en"
   website: "https://heemels.tue.nl"
 
+- name: "Andrea Agazzi"
+  affiliation: "b"
+  orcid: "https://orcid.org/0000-0001-7498-6034"
+  googlescholar: "https://scholar.google.com/citations?user=-r0-fc8AAAAJ&hl=en&oi=ao"
+  #website: ""
+
 - name: "Mauro Salazar"
   affiliation: "a"
   orcid: "https://orcid.org/0000-0003-4433-5796"

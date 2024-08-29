@@ -29,6 +29,15 @@ single-origin-destination-routing:
     btn_label: "Read More"
     btn_class: "btn--warning"
 
+evcharging:
+  - image_path: /assets/img/research/evcharging/teaser.svg
+    alt: "evcharging"
+    title: "Fair Incentive Mechanisms for Differentiated Services in a Public Electric Vehicle Charging Station"
+    excerpt: "A major barrier to electric vehicle (EV) adoption is the lack of affordable and accessible public chargers. This thesis proposes a fair incentive mechanism for operating a public EV charging station with access to renewable energy, prioritizing users without home-based chargers, and minimizing grid power usage."
+    url: "evcharging/"
+    btn_label: "Read More"
+    btn_class: "btn--warning"
+
 ---
 
 <h2>👋🏻 Welcome </h2>
@@ -41,5 +50,6 @@ When users **access shared resources in a selfish manner**, the resulting societ
 {% include news.html limit=site.data.settings.news.news_limit%}
 
 <h2>🧪 Featured Research</h2>
+{% include feature_row id="evcharging" type="left" %}
 {% include feature_row id="AC-weighted-eqt-eql" type="left" %}
 {% include feature_row id="single-origin-destination-routing" type="left" %}

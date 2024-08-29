@@ -45,3 +45,15 @@ sidebar-AC-weighted-eqt-eql:
     url: /AC-weighted-eqt-eql/#citing
   - title: "References"
     url: /AC-weighted-eqt-eql/#references
+
+sidebar-evcharging:
+  - title: "Short Abstract"
+    url: /evcharging/#short-abstract
+  - title: "Source Code"
+    url: /evcharging/#source-code
+  - title: "Simulation Results"
+    url: /evcharging/#simulation-results
+  - title: "Citing"
+    url: /evcharging/#citing
+  - title: "References"
+    url: /evcharging/#references
