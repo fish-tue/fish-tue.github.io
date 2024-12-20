@@ -26,7 +26,7 @@ When individuals access shared resources **selfishly**, the resulting societal a
 A **MATLAB** implementation of the methods and simulations presented in this paper are openly available in an **open-source repository** available at <a href="https://github.com/fish-tue/AC-weighted-equity-equality" target="blank">github.com/fish-tue/AC-weighted-equity-equality</a>. The code is **thoroughly commented** and is **easy to follow and modify**.
 {: .text-justify}
 
-The source code can also be **downloaded** directly <a href="https://github.com/fish-tue/AC-weighted-equity-equality">here</a> (X MB).
+The source code can also be **downloaded** directly <a href="https://github.com/fish-tue/AC-weighted-equity-equality">here</a>.
 
 See below for **step-by-step** instructions on how the **illustrative numerical results** in [[1, Section IV]](#references) were obtained from the source code made available.
 {: .text-justify}
@@ -148,19 +148,20 @@ The simulation with the **prices designed for equality** is carried out by compu
 
 If you use this repository, **please reference the publication below**.
 
-L. Pedroso, A. Agazzi, W.P.M.H. Heemels and M. Salazar, **'Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality**, *arxiV preprint*, 2024.
+L. Pedroso, A. Agazzi, W.P.M.H. Heemels and M. Salazar, **'Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality**, *63rd IEEE Conference on Decision and Control*, 2024. doi: [10.48550/arXiv.2403.03999](https://arxiv.org/abs/2403.03999). *(in press)*
 
 ```bib
-@article{PedrosoAgazziEtAl2024,
+@inproceedings{PedrosoAgazziEtAl2024EqtEql,
   author = {Leonardo Pedroso and Andrea Agazzi and W. P. M. H. Heemels and Mauro Salazar},
   title = {Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality},
-  journal = {arxiV preprint},
+  booktitle = {63rd IEEE Conference on Decision and Control},
   year = {2024},
-  doi = {}
+  doi = {10.48550/arXiv.2403.03999},
+  note = {in press}
 }
 ```
 
 ## References
 
-[1] L. Pedroso, A. Agazzi, W.P.M.H. Heemels and M. Salazar, **'Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality**, *arxiV preprint*, 2024.
+[1] L. Pedroso, A. Agazzi, W.P.M.H. Heemels and M. Salazar, **'Fair Artificial Currency Incentives in Repeated Weighted Congestion Games: Equity vs. Equality**, *63rd IEEE Conference on Decision and Control*, 2024. doi: [10.48550/arXiv.2403.03999](https://arxiv.org/abs/2403.03999). *(in press)*
 {: .text-justify}
